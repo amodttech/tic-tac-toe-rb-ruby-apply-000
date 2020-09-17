@@ -114,7 +114,6 @@ end
 
 def play(board)
   turn(board) until over?(board)
-end
   if won?(board)
     puts "Congratulations #{winner(board)}, you've won!"
   else
